@@ -9,42 +9,42 @@ private:
     double scholarship;
 
 public:
-    // Метод-геттер для імені студента
+    // Отримаємо доступ до імені студента
     std::string getName() const {
         return name;
     }
 
-    // Метод-сеттер для імені студента
+    //Отримуємо данні імені студента
     void setName(const std::string& n) {
         name = n;
     }
 
-    // Метод-геттер для віку студента
+    // Отримаємо доступ до віку студента
     int getAge() const {
         return age;
     }
 
-    // Метод-сеттер для віку студента
+    //Отримуємо данні віку студента
     void setAge(int a) {
         age = a;
     }
 
-    // Метод-геттер для статі студента
+    //Отримаємо доступ до статі студента
     char getGender() const {
         return gender;
     }
 
-    // Метод-сеттер для статі студента
+    //Отримуємо данні статі студента
     void setGender(char g) {
         gender = g;
     }
 
-    // Метод-геттер для стипендії студента
+    //Отримаємо доступ до стипендії студента
     double getScholarship() const {
         return scholarship;
     }
 
-    // Метод-сеттер для стипендії студента
+    //Отримуємо данні стипендії студента
     void setScholarship(double s) {
         scholarship = s;
     }
